@@ -13,9 +13,10 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq/linux-5.10.y-rk35xx"
+        default: "hiasiabuild/linux-rockchip@rk-6.1-rkr3"
         type: choice
         options:
+          - hiasiabuild/linux-rockchip@rk-6.1-rkr3
           - unifreq/linux-5.10.y-rk35xx
           - codesnas/linux-5.10.y-rk35xx
           - armbian/linux-rockchip@rk-6.1-rkr3
